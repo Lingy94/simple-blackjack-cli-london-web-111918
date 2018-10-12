@@ -37,7 +37,7 @@ def hit?(n)
   if x == "h"
     i = deal_card
     n = n + i
-    display_card_total(n)
+    return n
   elsif x == "s"
     
     return n
@@ -57,7 +57,7 @@ end
 
 def runner
   welcome
-  initial_round
-  hit?(initial_round)
+  n = initial_round
+  hit?(n)
 end
     
