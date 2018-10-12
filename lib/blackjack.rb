@@ -60,8 +60,8 @@ def runner
   n = n + initial_round
   
   until hit?(n) > 21
-    hit?(n)
-    
+    hit?(n) + n
   end
+  display_card_total(n)
 end
     
