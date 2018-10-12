@@ -61,7 +61,7 @@ def runner
   
   until hit?(n) > 21
     hit?(n)
-    puts n
+    display_card_total(n)
   end
 
 end
