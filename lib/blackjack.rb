@@ -60,7 +60,7 @@ def runner
   
   until hit?(n) > 21
     hit?(n)
-    return n
+    puts n
   end
 
 end
