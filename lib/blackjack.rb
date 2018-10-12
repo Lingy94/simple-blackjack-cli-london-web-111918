@@ -27,7 +27,6 @@ def initial_round
   j = deal_card
   sum = i + j
   display_card_total(sum)
-  return sum
 end
 
 def hit?(n)
