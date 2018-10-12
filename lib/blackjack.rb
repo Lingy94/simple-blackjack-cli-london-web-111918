@@ -37,10 +37,10 @@ def hit?(n)
   if x == "h"
     i = deal_card
     n = n + i
-   return n
+   return x
   elsif x == "s"
     
-    return n
+    return x
   elsif x != "h" || "s"
     invalid_command
     prompt_user
