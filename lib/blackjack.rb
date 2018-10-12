@@ -60,6 +60,6 @@ def runner
   n = initial_round
   hit?(n)
   
-  display_card_total(n)
+  display_card_total()
 end
     
