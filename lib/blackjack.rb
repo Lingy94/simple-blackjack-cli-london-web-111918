@@ -58,6 +58,7 @@ end
 def runner
   welcome
   n = initial_round
+  hit?(n)
   until n > 21 
   display_card_total(n)
   new = hit?(n)
