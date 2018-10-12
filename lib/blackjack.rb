@@ -63,6 +63,5 @@ def runner
     hit?(n)
     
   end
-display_card_total(n)
 end
     
