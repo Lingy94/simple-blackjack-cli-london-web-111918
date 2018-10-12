@@ -62,7 +62,7 @@ def runner
   until n > 21 
   new = hit?(n)
   n = new + n
-  display_card_total(initial_round)
+  display_card_total(n)
   end
 end
     
