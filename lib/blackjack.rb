@@ -59,8 +59,8 @@ def runner
   n = 0
   n = n + initial_round
   
-  until hit?(n) > 21
-    hit?
+  until n > 21
+    hit?(n) + n
   
   display_card_total(n)
   end
