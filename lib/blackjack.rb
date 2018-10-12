@@ -58,7 +58,7 @@ def runner
   welcome
   n = 0
   n = n + initial_round
-  
+  hit?(n)
   until n > 21
     hit?(n) + n
   
