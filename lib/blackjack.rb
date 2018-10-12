@@ -60,9 +60,6 @@ def runner
   display_card_total(n)
   until hit?(n) > 21
     hit?(n)
- 
-  end 
-  
-end_game(n)
+  end
 end
     
