@@ -58,6 +58,7 @@ end
 def runner
   welcome
   n = initial_round
+  hit?(n)
   
 end
     
