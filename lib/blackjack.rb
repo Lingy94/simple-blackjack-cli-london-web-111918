@@ -37,7 +37,7 @@ def hit?(n)
   if x == "h"
     i = deal_card
     n = n + i
-   return n
+    display_card_total(n)
   elsif x == "s"
     
     return n
