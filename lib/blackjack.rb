@@ -56,12 +56,10 @@ end
 
 def runner
   welcome
-  n = 0
-  n = n + initial_round
+  n = initial_round
   hit?(n)
   until n > 21
-    hit?(n) + n
-  
+    hit?(n)
   display_card_total(n)
   end
 end
